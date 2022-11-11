@@ -15,35 +15,31 @@ namespace MathandComparisonSubmission
 
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly rate?");
-            string hourlyRate1 = Console.ReadLine();
-            Console.WriteLine("Hourly rate = " + hourlyRate1);
+            int hourlyRate1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours worked per week?");
-            string hourWeek1 = Console.ReadLine();
-            Console.WriteLine("Hours worked per week = " + hourWeek1);
+            int hoursWeek1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Person 2");
             Console.WriteLine("Hourly rate?");
-            string hourlyRate2 = Console.ReadLine();
-            Console.WriteLine("Hourly rate = " + hourlyRate2);
+            int hourlyRate2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours worked per week?");
-            string hourWeek2 = Console.ReadLine();
-            Console.WriteLine("Hours worked per week = " + hourWeek2);
+            int hoursWeek2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Annual Salary of Peron 1: ");
 
-            string ann1 = "55,000";
-            Console.WriteLine(ann1);
-
+            int product = hourlyRate1 * hoursWeek1 * 56;
+            Console.WriteLine(product);
 
             Console.WriteLine("Annual Salary of Peron 2: ");
 
-            string ann2 = "33,000";
-            Console.WriteLine(ann2);
+            int product2 = hourlyRate2 * hoursWeek2 * 56;
+            Console.WriteLine(product2);
+
 
             Console.WriteLine("Does Person 1 make more money than Person 2? ");
 
-            bool moreMon = 55 > 33 ;
-            Console.WriteLine(moreMon.ToString());
+            bool result = product >= product2;
+            Console.WriteLine(result);
             Console.ReadLine();
 
         }

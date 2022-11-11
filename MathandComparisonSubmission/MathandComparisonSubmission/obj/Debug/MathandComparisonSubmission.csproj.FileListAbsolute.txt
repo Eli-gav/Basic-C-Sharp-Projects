@@ -5,3 +5,10 @@ C:\Users\xermi\source\repos\MathandComparisonSubmission\MathandComparisonSubmiss
 C:\Users\xermi\source\repos\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.csproj.CoreCompileInputs.cache
 C:\Users\xermi\source\repos\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.exe
 C:\Users\xermi\source\repos\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.pdb
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.exe
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\obj\Debug\MathandComparisonSubmission.pdb
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\bin\Debug\MathandComparisonSubmission.exe.config
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\bin\Debug\MathandComparisonSubmission.exe
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MathandComparisonSubmission\MathandComparisonSubmission\bin\Debug\MathandComparisonSubmission.pdb
