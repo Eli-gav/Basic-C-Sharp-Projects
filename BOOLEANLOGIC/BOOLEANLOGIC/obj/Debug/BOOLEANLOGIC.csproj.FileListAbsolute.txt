@@ -1,0 +1,7 @@
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\bin\Debug\BOOLEANLOGIC.exe.config
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\bin\Debug\BOOLEANLOGIC.exe
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\bin\Debug\BOOLEANLOGIC.pdb
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\obj\Debug\BOOLEANLOGIC.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\obj\Debug\BOOLEANLOGIC.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\obj\Debug\BOOLEANLOGIC.exe
+C:\Users\xermi\source\repos\BOOLEANLOGIC\BOOLEANLOGIC\obj\Debug\BOOLEANLOGIC.pdb
