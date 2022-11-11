@@ -24,15 +24,14 @@ namespace DailyReportProject
             Console.WriteLine("You are currently on: " + yourCourse);
 
             Console.WriteLine("What page number?");
-            string pageNum= "229";
+            string pageNum = Console.ReadLine();
             int pageNumber = Convert.ToInt32(pageNum);
-            Console.ReadLine();
+
 
 
             Console.WriteLine("Do you need help with anything? Please answer 'true' or 'false.'");
-            bool myAnswer = true;
-            string trueAnswer = Convert.ToString(myAnswer);
-            Console.ReadLine();
+            string myAnswer = Console.ReadLine();
+            bool myResult = Convert.ToBoolean(myAnswer);
             
 
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
@@ -44,9 +43,8 @@ namespace DailyReportProject
             Console.WriteLine("Your feedback: " + myFeedback);
 
             Console.WriteLine("How many hours did you study today?");
-            string hoursStudy = "8";
+            string hoursStudy = Console.ReadLine();
             int hoursStudying = Convert.ToInt32(hoursStudy);
-            Console.ReadLine();
 
 
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
