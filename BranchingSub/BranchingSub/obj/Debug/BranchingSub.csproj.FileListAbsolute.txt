@@ -1,0 +1,7 @@
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\bin\Debug\BranchingSub.exe.config
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\bin\Debug\BranchingSub.exe
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\bin\Debug\BranchingSub.pdb
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\obj\Debug\BranchingSub.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\obj\Debug\BranchingSub.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\obj\Debug\BranchingSub.exe
+C:\Users\xermi\source\repos\BranchingSub\BranchingSub\obj\Debug\BranchingSub.pdb
