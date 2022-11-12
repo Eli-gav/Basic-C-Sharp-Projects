@@ -1,0 +1,7 @@
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\bin\Debug\WhileLoops.exe.config
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\bin\Debug\WhileLoops.exe
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\bin\Debug\WhileLoops.pdb
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\obj\Debug\WhileLoops.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\obj\Debug\WhileLoops.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\obj\Debug\WhileLoops.exe
+C:\Users\xermi\source\repos\WhileLoops\WhileLoops\obj\Debug\WhileLoops.pdb
