@@ -28,7 +28,7 @@ namespace BOOLEANLOGIC
 
 
             Console.WriteLine("Qualified?");
-            bool qual = (yourAge >= 18 && Tickets <= 3 && DUI == false);
+            bool qual = (yourAge >= 15 && Tickets <= 3 && DUI == false);
             Console.WriteLine(qual);
             Console.ReadLine();
 
