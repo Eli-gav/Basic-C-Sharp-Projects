@@ -1,0 +1,7 @@
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\bin\Debug\ConsoleAppSubmissions.exe.config
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\bin\Debug\ConsoleAppSubmissions.exe
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\bin\Debug\ConsoleAppSubmissions.pdb
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\obj\Debug\ConsoleAppSubmissions.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\obj\Debug\ConsoleAppSubmissions.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\obj\Debug\ConsoleAppSubmissions.exe
+C:\Users\xermi\source\repos\ConsoleAppSubmissions\ConsoleAppSubmissions\obj\Debug\ConsoleAppSubmissions.pdb
