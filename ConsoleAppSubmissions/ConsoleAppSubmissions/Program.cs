@@ -12,25 +12,13 @@ namespace ConsoleAppSubmissions
         {
             //Part 1
             Console.WriteLine("What is your favorite movie?");
-            string[] movies = { "Mulan", "Star Wars", "Hocus Pocus", "Spider Man", "Taxi Driver" };
+            string[] movies = { "Your favorite movie is " };
             string movieInput = Console.ReadLine();
 
+            Console.WriteLine(movies + movieInput);
 
 
-
-            for (int m = 0; m < movies.Length; m++)
-            {
-                Console.WriteLine(movies[m]);
-            }
-
-
-
-            {
-                Console.WriteLine("New movie added : " + movieInput);
-            }
-
-
-            //Part 2 
+            //Part 2
 
             Console.WriteLine("Enter the less than 1. Type stop to exit");
             int infin = Convert.ToInt32(Console.ReadLine());
@@ -50,14 +38,25 @@ namespace ConsoleAppSubmissions
             //Part 3
 
 
-            Console.WriteLine("Select a number less than 5");
+            Console.WriteLine("Select a number less than 3");
             int user5 = Convert.ToInt32(Console.ReadLine());
 
-            if (user5 >= 5)
+            while (user5 <= 3)
             {
-                Console.WriteLine("Please select a number less than 5");
-                int user6 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Counting down from: " + user5);
+                user5--;
+
+                if (user5 < 0)
+                {
+                    break;
+                }
+
+                if (user5 >= 4)
+                    Console.WriteLine("Please select a number less than 3");
+
+
             }
+
 
 
             Console.WriteLine("Enter a number to count to 10");
@@ -76,64 +75,62 @@ namespace ConsoleAppSubmissions
             List<string> animals = new List<string>() { "cat", "dog", "frog", "rat", "moth" };
             string animalInput = Console.ReadLine();
 
-            foreach (string animal in animals)
+
+            bool a = animals.Contains(animalInput);
+
+            if (a == true)
             {
-                if (animal == animalInput)
-                {
-                    Console.WriteLine("Animal Exists : " + animal);
-                }
-                else
+                Console.WriteLine(animalInput + " is in the database");
+            }
+            else
+            {
+                Console.WriteLine(animalInput + " is not the database");
+            }
 
-                {
-                    Console.WriteLine("Sorry your animal does not exist.");
-                }
+
+            //Part 5
+            Console.WriteLine("Search for any fruit in our database");
+            List<string> fruits = new List<string>() { "strawberry", "kiwi", "grapes", "berries", };
+            string fruitInput = Console.ReadLine();
+
+
+            bool f = fruits.Contains(fruitInput);
+
+            if (f == true)
+            {
+                Console.WriteLine(fruitInput + " is in the database");
+            }
+            else
+            {
+                Console.WriteLine(fruitInput + " is not the database");
             }
 
 
 
-                //Part 5
-                Console.WriteLine("Search for any fruit in our database");
-                List<string> fruits = new List<string>() { "strawberry", "kiwi", "grapes", "berries", "kiwi" };
-                string fruitInput = Console.ReadLine();
-
-                foreach (string fruit in fruits)
-                {
-                    if (fruit == fruitInput)
-                    {
-                        Console.WriteLine("Fruit Exists : " + fruit);
-                    }
-                    else
-
-                    {
-                        Console.WriteLine("Sorry your entry does not exist.");
-
-                    }
-                }
-                    
+            //Part 6
+            List<string> subjects = new List<string>() { "A", "B", "C", "D" };
+            List<string> subjects2 = new List<string>() { "A", "F", "G", "H", "J" };
 
 
-                    //PART 6
-                    List<string> subjects = new List<string>() { "A", "B", "C", "D", "A" };
-
-
-
-                    foreach (string subject in subjects)
-                    {
-                        if (subject == subject)
-                            Console.WriteLine(subject + " is not unique");
-
-                        else
-                        {
-                            Console.WriteLine(subject + " is unique");
-                        }
-
-                    }
-
-
-
-                }
+            if (subjects == subjects2)
+            {
+                Console.WriteLine(subjects + "is not unique");
             }
+
+            else
+            {
+                Console.WriteLine(subjects + "is unique");
+            }
+
+
+
+
+            Console.ReadLine();
+
         }
-    
+    }
+}
+
+
 
 
