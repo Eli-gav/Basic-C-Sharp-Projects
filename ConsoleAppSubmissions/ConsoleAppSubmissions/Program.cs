@@ -11,11 +11,15 @@ namespace ConsoleAppSubmissions
         static void Main(string[] args)
         {
             //Part 1
-            Console.WriteLine("What is your favorite movie?");
-            string[] movies = { "Your favorite movie is " };
+            Console.WriteLine("Type in a word");
+            string[] movies = { "Your word is ", "Your word in a sentence is " };
             string movieInput = Console.ReadLine();
 
-            Console.WriteLine(movies + movieInput);
+            foreach (string m in movies)
+            {
+                Console.WriteLine(m + movieInput);
+            }
+
 
 
             //Part 2
@@ -80,7 +84,8 @@ namespace ConsoleAppSubmissions
 
             if (a == true)
             {
-                Console.WriteLine(animalInput + " is in the database");
+                int index = animals.FindIndex(b => b.Contains(animalInput));
+                Console.WriteLine(animalInput + " is in the database at index " + index);
             }
             else
             {
@@ -90,7 +95,7 @@ namespace ConsoleAppSubmissions
 
             //Part 5
             Console.WriteLine("Search for any fruit in our database");
-            List<string> fruits = new List<string>() { "strawberry", "kiwi", "grapes", "berries", };
+            List<string> fruits = new List<string>() { "strawberry", "kiwi", "grapes", "berries", "kiwi" };
             string fruitInput = Console.ReadLine();
 
 
@@ -98,34 +103,45 @@ namespace ConsoleAppSubmissions
 
             if (f == true)
             {
-                Console.WriteLine(fruitInput + " is in the database");
+  
+                int index = fruits.FindIndex(c => c.Contains(fruitInput));
+                Console.WriteLine(fruitInput + " is in the database at index "+ index);
+            }
+            else if (fruits.Count != fruits.Distinct().Count())
+            {
+                int index = fruits.FindIndex(c => c.Contains(fruitInput));
+                Console.WriteLine("This item is a duplicate" + index);
             }
             else
             {
                 Console.WriteLine(fruitInput + " is not the database");
             }
 
-
-
-            //Part 6
-            List<string> subjects = new List<string>() { "A", "B", "C", "D" };
-            List<string> subjects2 = new List<string>() { "A", "F", "G", "H", "J" };
-
-
-            if (subjects == subjects2)
-            {
-                Console.WriteLine(subjects + "is not unique");
-            }
-
-            else
-            {
-                Console.WriteLine(subjects + "is unique");
-            }
+          
+              
 
 
 
+                //Part 6
+                List<string> subjects = new List<string>() { "A", "B", "C", "D", "A" };
+                List<string> subjects2 = new List<string>() { "A"};
 
-            Console.ReadLine();
+                foreach (string s in subjects)
+                {
+                if (subjects2.Contains(s))
+                {
+                    Console.WriteLine(s + " is not unique");
+                }
+
+                else
+                {
+                    Console.WriteLine(s + " is unique");
+                }
+
+                }
+               
+
+                Console.ReadLine();
 
         }
     }
