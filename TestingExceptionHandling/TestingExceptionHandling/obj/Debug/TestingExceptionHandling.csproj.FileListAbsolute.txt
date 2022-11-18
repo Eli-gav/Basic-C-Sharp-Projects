@@ -1,0 +1,7 @@
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\bin\Debug\TestingExceptionHandling.exe.config
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\bin\Debug\TestingExceptionHandling.exe
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\bin\Debug\TestingExceptionHandling.pdb
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\obj\Debug\TestingExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\obj\Debug\TestingExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\obj\Debug\TestingExceptionHandling.exe
+C:\Users\xermi\source\repos\TestingExceptionHandling\TestingExceptionHandling\obj\Debug\TestingExceptionHandling.pdb
