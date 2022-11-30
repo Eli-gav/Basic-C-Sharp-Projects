@@ -18,19 +18,14 @@ namespace ConsoleAppSubmissions
            var i = 0;
             foreach (string m in movies)
             {
-                if(i!=0)
-                {
-                    movies[i] = movies[i] + movieInput;
-                    i++;
-                }
-               
-                else
-                {
-                    Console.WriteLine(m + movieInput);
-                }
-
-
+                 movies[i] = movies[i] + movieInput;
+                 i++;
+            }   
+            foreach (string m in movies)
+            {
+                Console.WriteLine(m);
             }
+                
 
 
 
@@ -174,7 +169,7 @@ namespace ConsoleAppSubmissions
         }
     }
 }
-}
+
 
 
 
