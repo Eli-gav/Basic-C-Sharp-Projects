@@ -16,39 +16,12 @@ namespace CallingMethodsSubmission
             int userInput = Convert.ToInt32(Console.ReadLine());
             got.userInput = userInput;
 
+            Console.WriteLine("Your number added is " + (Got.AddNumber(got)));
+            Console.WriteLine("Your number subtracted is " + (Got.SubNumber(got)));
+            Console.WriteLine("Your number multiplied is " + (Got.MultNumber(got)));
 
-            Console.WriteLine("Your number added is " + (AddNumber(got)));
-            Console.WriteLine("Your number subtracted is " + SubNumber(got));
-            Console.WriteLine("Your number multiplied is " + MultNumber(got));
             Console.ReadLine();
 
 
-
-
-        }
-
-        public static int AddNumber(Got got)
-        {
-            return got.storeNum + got.userInput;
-
-
-
-
-
-        }
-
-        public static int SubNumber(Got got)
-        {
-
-            return got.storeNum - got.userInput;
-
-        }
-
-
-        public static int MultNumber(Got got)
-        {
-
-            return got.storeNum * got.userInput;
         }
     }
-}
