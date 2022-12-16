@@ -11,37 +11,38 @@ namespace MainMethod
         public Opp()
         {
             one = 555;
-            two = (int)(double)3.4455;
-            three = "Your number is ";
+            two = (decimal).4455;
+            three = 44;
 
         }
 
-        public static int testOne(Opp opp)
+        public int testOne(Opp opp)
         {
             return opp.one + opp.userInput;
         }
 
-       
 
-        public static int testTwo(Opp opp)
+
+        public decimal testTwo(Opp opp)
         {
-            return (int)((int)opp.two * opp.userInput2) ;
+            return opp.two * opp.userInput2;
         }
 
-        public static string testThree(Opp opp)
+        public int testThree(Opp opp)
         {
-            return opp.three +  opp.userInput3;
+
+            return opp.three + Convert.ToInt32(opp.userInput3);
         }
 
- 
+
 
 
 
         public int one { get; set; }
-        public int two { get; set; }
-        public string three { get; set; }
+        public decimal two { get; set; }
+        public int three { get; set; }
         public int userInput { get; set; }
-        public double userInput2 { get; set; }
+        public decimal userInput2 { get; set; }
         public string userInput3 { get; set; }
     }
 }
