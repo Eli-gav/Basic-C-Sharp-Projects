@@ -5,3 +5,10 @@ C:\Users\xermi\source\repos\MainMethod\MainMethod\obj\Debug\MainMethod.csproj.As
 C:\Users\xermi\source\repos\MainMethod\MainMethod\obj\Debug\MainMethod.csproj.CoreCompileInputs.cache
 C:\Users\xermi\source\repos\MainMethod\MainMethod\obj\Debug\MainMethod.exe
 C:\Users\xermi\source\repos\MainMethod\MainMethod\obj\Debug\MainMethod.pdb
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\obj\Debug\MainMethod.csproj.AssemblyReference.cache
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\obj\Debug\MainMethod.csproj.CoreCompileInputs.cache
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\obj\Debug\MainMethod.exe
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\obj\Debug\MainMethod.pdb
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\bin\Debug\MainMethod.exe.config
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\bin\Debug\MainMethod.exe
+C:\Users\xermi\source\repos\Basic-C-Sharp-Projects\MainMethod\MainMethod\bin\Debug\MainMethod.pdb

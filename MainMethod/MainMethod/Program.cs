@@ -15,24 +15,19 @@ namespace MainMethod
 
             Console.WriteLine("Pick your number");
             int userInput = Convert.ToInt32(Console.ReadLine());
-            opp.userInput = userInput;
-            Console.WriteLine("Your number plus 555 is " + opp.testOne(opp));
+            Console.WriteLine("Your number plus 555 is " + opp.testOne(userInput));
 
 
 
 
             Console.WriteLine("Pick a decimal");
             decimal userInput2 = Convert.ToDecimal(Console.ReadLine());
-            opp.userInput2 = userInput2;
-            Console.WriteLine("Your number multiplied by .4445 is  " + opp.testTwo(opp));
+            Console.WriteLine("Your number multiplied by .4445 is  " + opp.testOne(userInput2));
 
 
             Console.WriteLine("Type in a number");
             string userInput3 = Console.ReadLine();
-            opp.userInput3 = userInput3;
-
-
-            Console.WriteLine("Your number is " + opp.testThree(opp));
+            Console.WriteLine("Your number is " + opp.testOne(userInput3));
 
 
 

@@ -16,22 +16,25 @@ namespace MainMethod
 
         }
 
-        public int testOne(Opp opp)
+        public int testOne(int a)
         {
-            return opp.one + opp.userInput;
+            return a + one;
         }
 
 
 
-        public decimal testTwo(Opp opp)
+        public int testOne(decimal b)
         {
-            return opp.two * opp.userInput2;
+            return (int)(b * two);
+          
         }
 
-        public int testThree(Opp opp)
+        public int testOne(string c)
         {
 
-            return opp.three + Convert.ToInt32(opp.userInput3);
+            return (int)(Convert.ToInt32(c) + three);
+                
+         
         }
 
 
